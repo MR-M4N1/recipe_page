@@ -33,7 +33,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [(https://github.com/MR-M4N1/recipe_page)]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [(https://mr-m4n1.github.io/recipe_page/)]
 
 ## My process
 
