@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titles {
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main_container {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.info_title {
+    font-family: Young Serif, Arial;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 12px;
+}
+
+.info {
+    font-size: 16px;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    color: hsl(30, 10%, 34%);
+    line-height: 25px;
+
+}
+
+.Prepare_box {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+
+
+
+.Prepare_title {
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+li>p {
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+span {
+    font-weight: 600;
+}
+
+.omelette_picture {
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.ins_ul {
+    list-style: decimal;
+}
+
+.paragraph {
+    margin-left: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+.ins_li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.ing_li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.Prepare_li::marker {
+    color: hsl(332, 51%, 32%);
+
+}
+
+.Information_container {
+    margin-bottom: 35px;
+}
+
+.Ingredient_container {
+    margin-bottom: 30px;
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.Instruction_container {
+    margin-bottom: 30px;
+    border-top: 1px solid hsl(30, 18%, 87%);
+
+}
+
+.Nutrition_title {
+    margin-bottom: 0;
+}
+
+.Nutrition_container {
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.Nutrition_Info {
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+tr>td {
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+th,
+td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 10px;
+}
+
+.Left_column {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.right_column {
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 321px) and (max-width:345px) {
+    .info_title {
+        font-size: 32.5px;
+    }
+}
+
+@media screen and (min-width: 346px) and (max-width:375px) {
+    .info_title {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width:425px) {
+    .info_title {
+        font-size: 37px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width:768px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .web_page {
+        max-width: 90%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 30px;
+        margin: 80px 0;
+    }
+
+    .omelette_image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .omelette_picture {
+        border-radius: 20px;
+        width: 84%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info_title {
+        font-size: 35px;
+    }
+
+    .web_page {
+        max-width: 750px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 30px;
+        margin: 80px 0;
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    .omelette_image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .omelette_picture {
+        border-radius: 20px;
+        width: 630px;
+        margin-top: 40px;
+    }
+}
