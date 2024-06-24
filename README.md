@@ -5,7 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#Overview)
-  - [The challenge](#The challenge)
   - [Screenshot](#Screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -33,7 +32,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/MR-M4N1/recipe_page))
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
